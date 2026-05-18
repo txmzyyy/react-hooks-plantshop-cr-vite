@@ -1,6 +1,6 @@
 import React from "react";
 
-function NewPlantForm({ onAddPlant }) {
+function NewPlantForm({ onAddPlant}) {
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
   const [price, setPrice] = useState(0);
@@ -28,7 +28,6 @@ function NewPlantForm({ onAddPlant }) {
       setPrice("");
     });
 }
-
   return (
     <div className="new-plant-form">
       <h2>New Plant</h2>
@@ -41,5 +40,6 @@ function NewPlantForm({ onAddPlant }) {
     </div>
   );
 }
+
     
 export default NewPlantForm;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Search({searchTerm, onsetSearchChange }) {
+function Search({ searchTerm, onsetSearchChange }) {
   return (
     <div className="searchbar">
       <label htmlFor="search">Search Plants:</label>
@@ -14,6 +14,7 @@ function Search({searchTerm, onsetSearchChange }) {
     </div>
   );
 }
+
 
 
 export default Search;
